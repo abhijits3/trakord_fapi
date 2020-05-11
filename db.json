@@ -1,116 +1,50 @@
 {
-	"sites": {
-		"site": [{
-				"id": 1,
-				"name": "Global University",
-				"location": "Hinjewadi",
-				"areas": {
-					"area": [{
-							"id": 10,
-							"name": "Admin Building",
-							"locations": {
-								"location": [{
-										"id": 100,
-										"name": "Floor 1"
-									},
-									{
-										"id": 101,
-										"name": "Floor 2"
-									}
-								]
-							}
-						},
-						{
-							"id": 11,
-							"name": "Security Office",
-							"locations": {
-								"location": [{
-										"id": 110,
-										"name": "Security Cabin"
-									},
-									{
-										"id": 111,
-										"name": "Wash Room"
-									}
-								]
-							}
-						},
-						{
-							"id": 12,
-                            "name": "Engineering Wing",
-                            "locations": {
-								"location": [{
-										"id": 120,
-										"name": "Mechanical Dept"
-									},
-									{
-										"id": 121,
-										"name": "Civil Dept"
-									}
-								]
-							}
-						}
-					]
-				}
-            },
-            {
-				"id": 2,
-				"name": "Good Health Hospital",
-				"location": "Bhosari",
-				"areas": {
-					"area": [{
-							"id": 20,
-							"name": "Main Building",
-							"locations": {
-								"location": [{
-										"id": 200,
-										"name": "Reception"
-									},
-									{
-										"id": 201,
-										"name": "Mens WashRoom"
-									},
-									{
-										"id": 202,
-										"name": "Ladies WashRoom"
-									}
-								]
-							}
-						},
-						{
-							"id": 21,
-							"name": "OPD",
-							"locations": {
-								"location": [{
-										"id": 210,
-										"name": "Waiting Area"
-									},
-									{
-										"id": 211,
-										"name": "OPD 1"
-									}
-								]
-							}
-						},
-						{
-							"id": 22,
-                            "name": "Radiology",
-                            "locations": {
-								"location": [{
-										"id": 220,
-										"name": "Waiting Area"
-									},
-									{
-										"id": 221,
-										"name": "Screening Room"
-									}
-								]
-							}
-						}
-					]
-				}
-			}
-
-		]
-	}
-}
+    "sites": [
+      {
+        "id": 1,
+        "name": "Global University"
+      },
+      {
+        "id": 2,
+        "name": "Good Health Hospital"
+      },
+      {
+        "id": 3,
+        "name": "Star Warehousing"
+      }
+    ],
+    "areas": [
+      {
+        "id": 1,
+        "body": "Admin Building",
+        "siteId": 1
+      },
+      {
+        "id": 2,
+        "body": "Security Office",
+        "siteId": 1
+      }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "body": "Floor 1",
+            "areaId": 1
+          },
+          {
+            "id": 2,
+            "body": "Floor 2",
+            "areaId": 1
+          },
+          {
+            "id": 3,
+            "body": "Security Cabin",
+            "areaId": 2
+          },
+          {
+            "id": 4,
+            "body": "Wash Room",
+            "areaId": 2
+          }
+    ]
+  }
