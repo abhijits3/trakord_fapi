@@ -16,34 +16,34 @@
     "areas": [
       {
         "id": 1,
-        "body": "Admin Building",
+        "name": "Admin Building",
         "siteId": 1
       },
       {
         "id": 2,
-        "body": "Security Office",
+        "name": "Security Office",
         "siteId": 1
       }
     ],
     "locations": [
         {
             "id": 1,
-            "body": "Floor 1",
+            "name": "Floor 1",
             "areaId": 1
           },
           {
             "id": 2,
-            "body": "Floor 2",
+            "name": "Floor 2",
             "areaId": 1
           },
           {
             "id": 3,
-            "body": "Security Cabin",
+            "name": "Security Cabin",
             "areaId": 2
           },
           {
             "id": 4,
-            "body": "Wash Room",
+            "name": "Wash Room",
             "areaId": 2
           }
     ]
