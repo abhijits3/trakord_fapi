@@ -1,50 +1,50 @@
 {
 	"sites": {
 		"site": [{
-				"id": "0001",
+				"id": 1,
 				"name": "Global University",
 				"location": "Hinjewadi",
 				"areas": {
 					"area": [{
-							"id": "1001",
+							"id": 10,
 							"name": "Admin Building",
 							"locations": {
 								"location": [{
-										"id": "1010",
+										"id": 100,
 										"name": "Floor 1"
 									},
 									{
-										"id": "1020",
+										"id": 101,
 										"name": "Floor 2"
 									}
 								]
 							}
 						},
 						{
-							"id": "1002",
+							"id": 11,
 							"name": "Security Office",
 							"locations": {
 								"location": [{
-										"id": "1012",
+										"id": 110,
 										"name": "Security Cabin"
 									},
 									{
-										"id": "1022",
+										"id": 111,
 										"name": "Wash Room"
 									}
 								]
 							}
 						},
 						{
-							"id": "1003",
+							"id": 12,
                             "name": "Engineering Wing",
                             "locations": {
 								"location": [{
-										"id": "1013",
+										"id": 120,
 										"name": "Mechanical Dept"
 									},
 									{
-										"id": "1023",
+										"id": 121,
 										"name": "Civil Dept"
 									}
 								]
@@ -54,54 +54,54 @@
 				}
             },
             {
-				"id": "0002",
+				"id": 2,
 				"name": "Good Health Hospital",
 				"location": "Bhosari",
 				"areas": {
 					"area": [{
-							"id": "2001",
+							"id": 20,
 							"name": "Main Building",
 							"locations": {
 								"location": [{
-										"id": "2010",
+										"id": 200,
 										"name": "Reception"
 									},
 									{
-										"id": "2020",
+										"id": 201,
 										"name": "Mens WashRoom"
 									},
 									{
-										"id": "2030",
+										"id": 202,
 										"name": "Ladies WashRoom"
 									}
 								]
 							}
 						},
 						{
-							"id": "2002",
+							"id": 21,
 							"name": "OPD",
 							"locations": {
 								"location": [{
-										"id": "2012",
+										"id": 210,
 										"name": "Waiting Area"
 									},
 									{
-										"id": "2022",
+										"id": 211,
 										"name": "OPD 1"
 									}
 								]
 							}
 						},
 						{
-							"id": "2003",
+							"id": 22,
                             "name": "Radiology",
                             "locations": {
 								"location": [{
-										"id": "2013",
+										"id": 220,
 										"name": "Waiting Area"
 									},
 									{
-										"id": "2023",
+										"id": 221,
 										"name": "Screening Room"
 									}
 								]
