@@ -1,0 +1,116 @@
+{
+	"sites": {
+		"site": [{
+				"id": "0001",
+				"name": "Global University",
+				"location": "Hinjewadi",
+				"areas": {
+					"area": [{
+							"id": "1001",
+							"name": "Admin Building",
+							"locations": {
+								"location": [{
+										"id": "1010",
+										"name": "Floor 1"
+									},
+									{
+										"id": "1020",
+										"name": "Floor 2"
+									}
+								]
+							}
+						},
+						{
+							"id": "1002",
+							"name": "Security Office",
+							"locations": {
+								"location": [{
+										"id": "1012",
+										"name": "Security Cabin"
+									},
+									{
+										"id": "1022",
+										"name": "Wash Room"
+									}
+								]
+							}
+						},
+						{
+							"id": "1003",
+                            "name": "Engineering Wing",
+                            "locations": {
+								"location": [{
+										"id": "1013",
+										"name": "Mechanical Dept"
+									},
+									{
+										"id": "1023",
+										"name": "Civil Dept"
+									}
+								]
+							}
+						}
+					]
+				}
+            },
+            {
+				"id": "0002",
+				"name": "Good Health Hospital",
+				"location": "Bhosari",
+				"areas": {
+					"area": [{
+							"id": "2001",
+							"name": "Main Building",
+							"locations": {
+								"location": [{
+										"id": "2010",
+										"name": "Reception"
+									},
+									{
+										"id": "2020",
+										"name": "Mens WashRoom"
+									},
+									{
+										"id": "2030",
+										"name": "Ladies WashRoom"
+									}
+								]
+							}
+						},
+						{
+							"id": "2002",
+							"name": "OPD",
+							"locations": {
+								"location": [{
+										"id": "2012",
+										"name": "Waiting Area"
+									},
+									{
+										"id": "2022",
+										"name": "OPD 1"
+									}
+								]
+							}
+						},
+						{
+							"id": "2003",
+                            "name": "Radiology",
+                            "locations": {
+								"location": [{
+										"id": "2013",
+										"name": "Waiting Area"
+									},
+									{
+										"id": "2023",
+										"name": "Screening Room"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+
+		]
+	}
+}
