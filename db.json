@@ -26,6 +26,16 @@
         "id": 2,
         "name": "Security Office",
         "siteId": 1
+      },
+      {
+        "id": 3,
+        "name": "OPD",
+        "siteId": 2
+      },
+      {
+        "id": 4,
+        "name": "Admissions",
+        "siteId": 2
       }
     ],
     "locations": [
