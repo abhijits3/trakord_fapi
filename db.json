@@ -2,15 +2,18 @@
     "sites": [
       {
         "id": 1,
-        "name": "Global University"
+        "name": "Global University",
+        "location": "Hinjewadi"
       },
       {
         "id": 2,
-        "name": "Good Health Hospital"
+        "name": "Good Health Hospital",
+        "location": "Bhosari"
       },
       {
         "id": 3,
-        "name": "Star Warehousing"
+        "name": "Star Warehousing",
+        "location": "Chakan"
       }
     ],
     "areas": [
