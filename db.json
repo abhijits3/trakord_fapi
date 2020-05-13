@@ -2,16 +2,19 @@
     "sites": [
       {
         "id": 1,
+        "custId": 1,
         "name": "Global University",
         "location": "Hinjewadi"
       },
       {
         "id": 2,
+        "custId": 2,
         "name": "Good Health Hospital",
         "location": "Bhosari"
       },
       {
         "id": 3,
+        "custId": 3,
         "name": "Star Warehousing",
         "location": "Chakan"
       }
@@ -59,5 +62,47 @@
             "name": "Wash Room",
             "areaId": 2
           }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "empcode": "1010",
+        "fullname": "Abhijit Deshpande",
+        "designation": "Executive",
+        "role": "Site Executive",
+        "status": "active"
+      },
+      {
+        "id": 2,
+        "empcode": "1020",
+        "fullname": "Bahar Tepan",
+        "designation": "Executive",
+        "role": "Site Executive",
+        "status": "active"
+      },
+      {
+        "id": 3,
+        "empcode": "1030",
+        "fullname": "Rahul Nanal",
+        "designation": "Janitor",
+        "role": "Site Staff",
+        "status": "active"
+      },
+      {
+        "id": 4,
+        "empcode": "1040",
+        "fullname": "Trupti Dhamale",
+        "designation": "Janitor",
+        "role": "Site Staff",
+        "status": "active"
+      },
+      {
+        "id": 5,
+        "custId": 27,
+        "siteId": 1,
+        "fullname": "Sunil Prabhu",
+        "role": "Customer Representative",
+        "status": "active"
+      }        
     ]
   }
