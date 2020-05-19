@@ -119,9 +119,9 @@
         "tags": ["Task", "Sanitize"],
         "repeat": "month",
         "userId": [3,4],  
-        "assigned_to": [
-          {"userId": 3},
-          {"userId": 4}
+        "users": [
+          {"id": 3},
+          {"id": 4}
         ],
         "siteId": 1,
         "areaId": 2,
