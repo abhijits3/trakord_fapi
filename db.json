@@ -118,7 +118,7 @@
         "priority": "Critical",
         "tags": ["Task", "Sanitize"],
         "repeat": "month",
-        "empId": 3,  
+        "userId": 3,  
         "assigned_to": [
           {"userId": 3},
           {"userId": 4}
