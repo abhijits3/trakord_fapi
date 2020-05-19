@@ -108,5 +108,23 @@
         "role": "Customer Representative",
         "status": "active"
       }        
+    ],
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Sanitize Conference Room",
+        "desc": "Clean and sanitize all furniture in the conference room and wipe window sills, side rails, mics, markers, dusters.",
+        "due_date": "2020-05-18",
+        "priority": "Critical",
+        "tags": ["Task", "Sanitize"],
+        "repeat": "month",
+        "assigned_to": [
+          {"empId": 3},
+          {"empId": 4}
+        ],
+        "siteId": 1,
+        "areaId": 2,
+        "locationId": 1
+      }
     ]
   }
