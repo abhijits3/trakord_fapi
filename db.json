@@ -114,16 +114,25 @@
         "id": 1,
         "title": "Sanitize Conference Room",
         "desc": "Clean and sanitize all furniture in the conference room and wipe window sills, side rails, mics, markers, dusters.",
+        "reported_on": "2020-05-18 11:00",
+        "reported_by": {
+            "id": 1,
+            "name": "Abhijit Deshpande"
+        },
         "due_date": "2020-05-18",
         "priority": "Critical",
         "tags": ["Task", "Sanitize"],
         "repeat": "month",
         "users" : [
           {
-            "id": 3
+            "id": 3,
+            "fullname": "Rahul Nanal",
+            "designation": "Janitor"
           },
           {
-            "id": 4
+            "id": 4,
+            "fullname": "Trupti Dhamale",
+            "designation": "Janitor"
           }
         ],
         "siteId": 1,
@@ -138,13 +147,21 @@
         "id": 1,
         "title": "Dusting",
         "desc": "Dry dusting reception block and waiting lounge.",
+        "reported on": "2020-05-18 11:00",
+        "reported_by": {
+          "id": 2,
+          "name": "Bahar Tepan"
+        },
         "due_date": "2020-05-18",
         "priority": "High",
         "tags": ["Task", "Dusting"],
         "repeat": "day",
         "users" : [
           {
-            "id": 4
+            "id": 4,
+            "fullname": "Trupti Dhamale",
+            "designation": "Janitor"
+
           }
         ],
         "siteId": 1,
