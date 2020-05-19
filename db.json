@@ -118,14 +118,52 @@
         "priority": "Critical",
         "tags": ["Task", "Sanitize"],
         "repeat": "month",
-        "userId": [3,4],  
-        "users": [
-          {"id": 3},
-          {"id": 4}
+        "userId": 3,
+        "users" : [
+          {
+            "id": 3
+          },
+          {
+            "id": 4
+          }
+        ],
+        "assigned_to": [
+          {"empId": 3},
+          {"empId": 4}
         ],
         "siteId": 1,
         "areaId": 2,
-        "locationId": 1
+        "locationId": 1,
+        "status": {
+          "id": 1,
+          "status": "Open"
+        }
+      },
+      {
+        "id": 1,
+        "title": "Dusting",
+        "desc": "Dry dusting reception block and waiting lounge.",
+        "due_date": "2020-05-18",
+        "priority": "High",
+        "tags": ["Task", "Dusting"],
+        "repeat": "day",
+        "userId": 4,
+        "users" : [
+          {
+            "id": 4
+          }
+        ],
+        "assigned_to": [
+          {"empId": 3},
+          {"empId": 4}
+        ],
+        "siteId": 1,
+        "areaId": 2,
+        "locationId": 1,
+        "status": {
+          "id": 1,
+          "status": "Open"
+        }
       }
     ]
   }
