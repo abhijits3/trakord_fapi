@@ -120,8 +120,8 @@
         "repeat": "month",
         "empId": 3,  
         "assigned_to": [
-          {"empId": 3},
-          {"empId": 4}
+          {"userId": 3},
+          {"userId": 4}
         ],
         "siteId": 1,
         "areaId": 2,
