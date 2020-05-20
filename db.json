@@ -158,10 +158,7 @@
         "repeat": "Weekly",
         "users" : [
           {
-            "id": 4,
-            "fullname": "Trupti Dhamale",
-            "designation": "Janitor"
-
+            "id": 0
           }
         ],
         "siteId": 1,
